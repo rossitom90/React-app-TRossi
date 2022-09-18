@@ -1,12 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
-import saludos from './components/Saludo';
+import Saludos from './components/Saludo';
+import BoxForChildren from './components/BoxForChildren';
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+<>
+<h1>Hola Mundo!!</h1>
+    <Saludos name='Tomas' age={32} />
+    <Saludos name='Cecilia' age={29} />
+    <Saludos name='Ezequiel' age={35} />
+    <Saludos name='Martin' age={28} />
+
+    <BoxForChildren></BoxForChildren>
+</> 
+
   );
 }
 
