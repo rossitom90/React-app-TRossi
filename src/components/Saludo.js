@@ -5,6 +5,7 @@ function Saludos({name, age}) {
     
         <>
     <h1>Saludos!! {name}!</h1>
+    
     <AgeLabel></AgeLabel>
     </>
     )

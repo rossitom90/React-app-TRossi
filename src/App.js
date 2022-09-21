@@ -8,9 +8,9 @@ import bodyProductos from './components/bodyProductos';
 function App() {
   return (
 <>
-<NavBar></NavBar>
-<bodyProductos></bodyProductos>
-
+<NavBar/>
+<bodyProductos/>
+<Saludos/>
 </> 
 
   );
