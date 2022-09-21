@@ -3,14 +3,26 @@ import './App.css';
 import Saludos from './components/Saludo';
 import BoxForChildren from './components/BoxForChildren';
 import NavBar from './components/NavBar';
-import bodyProductos from './components/bodyProductos';
+import BodyProducto from './components/bodyProductos';
+import footerr from './components/Footer';
 
 function App() {
   return (
 <>
+<header>
 <NavBar/>
-<bodyProductos/>
+</header>
+
+<body>
 <Saludos/>
+
+</body>
+
+<footer>
+
+<footerr/>
+
+</footer>
 </> 
 
   );

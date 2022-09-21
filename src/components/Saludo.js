@@ -4,7 +4,7 @@ function Saludos({name, age}) {
     return(
     
         <>
-    <h1>Saludos!! {name}!</h1>
+    <h1> Esta es la Pagina de Crypto Merch {name}!</h1>
     
     <AgeLabel></AgeLabel>
     </>
