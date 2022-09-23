@@ -5,6 +5,7 @@ import BoxForChildren from './components/BoxForChildren';
 import NavBar from './components/NavBar';
 import BodyProducto from './components/bodyProductos';
 import footerr from './components/Footer';
+import ItemListContainer from './components/shop/itemlistContainer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
 </header>
 
 <body>
+  <ItemListContainer greeting={'Hola, bienvenidos al eCommerce'}/>
 <Saludos/>
 
 </body>
