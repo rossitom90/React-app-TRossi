@@ -1,33 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
-import Saludos from './components/Saludo';
-import BoxForChildren from './components/BoxForChildren';
-import NavBar from './components/NavBar';
-import BodyProducto from './components/bodyProductos';
-import footerr from './components/Footer';
-import ItemListContainer from './components/shop/itemlistContainer';
+import logo from './logo.svg'
+import './App.css'
+import Saludos from './components/Saludo'
+import BoxForChildren from './components/BoxForChildren'
+import NavBar from './components/NavBar'
+import BodyProducto from './components/bodyProductos'
+import Footerr from './components/Footer'
+import ItemListContainer from './components/shop/itemlistContainer'
 
 function App() {
   return (
-<>
-<header>
-<NavBar/>
-</header>
+    <>
+      <header>
+        <NavBar />
+      </header>
 
-<body>
-  <ItemListContainer greeting={'Hola, bienvenidos al eCommerce'}/>
-<Saludos/>
+      <body>
+        <div>
+          <BodyProducto />
+          <BodyProducto />
+          <BodyProducto />
+          <BodyProducto />
+        </div>
 
-</body>
+        <ItemListContainer greeting={'Mi Tienda'} />
+        <Saludos />
+      </body>
 
-<footer>
-
-<footerr/>
-
-</footer>
-</> 
-
-  );
+      <footer>
+        <Footerr />
+      </footer>
+    </>
+  )
 }
 
-export default App;
+export default App
